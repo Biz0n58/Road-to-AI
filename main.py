@@ -17,9 +17,8 @@ print("My name is " + name + ", I am " + str(age) + " years old, my score is " +
 #subtraction (-)
 
 #floor division (//) means "delete the after the decimal point"
-
+print("Hello World")
 print(5 * 2 + 4 / 2 - 3)
-
 num1 = 10
 num2 = 5
 sum = num1 + num2  
