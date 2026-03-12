@@ -8,6 +8,18 @@ age = 22
 score = 97.5
 engineer = True
 print("My name is " + name + ", I am " + str(age) + " years old, my score is " + str(score) + ", and it is " + str(engineer) + " that I am an engineer.")
+#-----------------------------------------------------------------------------------------------------------------------------------------# 
+#Arithmetic operators
+#exponents (**) means "to the power of"
+#multiplication (*)
+#division (/)
+# addition (+)
+#subtraction (-)
+
+#floor division (//) means "delete the after the decimal point"
+
+print(5 * 2 + 4 / 2 - 3)
+
 num1 = 10
 num2 = 5
 sum = num1 + num2  
@@ -21,7 +33,9 @@ print(division)
 
 
 
-# Variables and User Input
+#-----------------------------------------------------------------------------------------------------------------------------------------#
+
+#Variables and User Input
 first_name = (input("Enter your First Name: "))
 last_name = (input("Enter your Last Name: "))
 print("Hello " + first_name + " " + last_name + "! Welcome to Python programming.")
