@@ -7,8 +7,18 @@ name = "Mercer"
 age = 22
 score = 97.5
 engineer = True
-print("My name is " + name + ", I am " + (age) + " years old, my score is " + str(score) + ", and it is " + str(engineer) + " that I am an engineer.")
-#Str 
+print("My name is " + name + ", I am " + str(age) + " years old, my score is " + str(score) + ", and it is " + str(engineer) + " that I am an engineer.")
+num1 = 10
+num2 = 5
+sum = num1 + num2  
+subtraction = num1 - num2
+multiplication = num1 * num2
+division = num1 / num2
+print(sum)
+print(subtraction)
+print(multiplication)
+print(division)
+
 
 
 # Variables and User Input
