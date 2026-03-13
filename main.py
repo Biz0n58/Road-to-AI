@@ -23,11 +23,11 @@ print(5 * (2 + 4) / 2 - 3)
 
 num1 = 10
 num2 = 5
-sum = num1 + num2
+sums = num1 + num2
 subtraction = num1 - num2
 multiplication = num1 * num2
 division = num1 / num2
-print(sum)
+print(sums)
 print(subtraction)
 print(multiplication)
 print(division)
@@ -66,7 +66,25 @@ last_name = name[4:]
 print(first_name) # Slices the string from index 0 to index 3 (not including index 3)
 print(last_name) # Slices the string from index 4 to the end
 #-----------------------------------------------------------------------------------------------------------------------------------------#
-#bulit-in functions (numbers)
+#built-in functions (numbers)
+number = -58
+number2 = 86.14
+number3 = 65
+print((abs(number))) # Returns the absolute value of a number
+print((round(number2))) # Rounds a number to the nearest integer
+print(sum([number, number2, number3])) # Returns the sum of three numbers
+print(max(number, number2, number3)) # Returns the largest of three numbers
+print(min(number, number2, number3)) # Returns the smallest of three numbers
+#-----------------------------------------------------------------------------------------------------------------------------------------#
+#Incrementation
+numbers = 2
+print(numbers) # Output: 2
+numbers += 3 # numbers = numbers + 3
+print(numbers) # Output: 5
+
+
+#-----------------------------------------------------------------------------------------------------------------------------------------#
+
 
 #-----------------------------------------------------------------------------------------------------------------------------------------#
 #Variables and User Input
