@@ -42,17 +42,22 @@ print("Hello \f world") #\f	Form Feed
 #Multi Line String
 print("""I want to be a AI engineer
 but I should to learn first a python Language 
-after i shold learn machine learning""")
+after i should learn machine learning""")
 #-----------------------------------------------------------------------------------------------------------------------------------------#
-#Bulit-in Functions
+#Built-in Functions
 
-print("Lenth for Hello World is: " + str(len("Hello World"))) # Returns the length of a string
+print("Length for Hello World is: " + str(len("Hello World"))) # Returns the length of a string
 print("Data type for 3.14 is: " + str(type(3.14))) # Returns the data type of a value
 print("Data type for Hello is: " + str(type("Hello"))) # Returns the data type of a value
 print("Data type for True is: " +str(type(True))) # Returns the data type of a value
 
 #-----------------------------------------------------------------------------------------------------------------------------------------#
-
+#string methods 
+print("Mohamed".upper()) # Converts a string to uppercase
+print("Mohamed".lower()) # Converts a string to lowercase
+print("Mohamed".capitalize()) # Capitalizes the first letter of a string
+print("Mohamed".replace("o", "a")) # Replaces a specified value with another value in a string
+print("Mohamed".find("a")) # Searches for a specified value and returns the position of where it was found in a string
 
 #-----------------------------------------------------------------------------------------------------------------------------------------#
 #Variables and User Input
