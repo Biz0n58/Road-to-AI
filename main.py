@@ -43,6 +43,15 @@ print("Hello \f world") #\f	Form Feed
 print("""I want to be a AI engineer
 but I should to learn first a python Language 
 after i shold learn machine learning""")
+#-----------------------------------------------------------------------------------------------------------------------------------------#
+#Bulit-in Functions
+
+print("Lenth for Hello World is: " + str(len("Hello World"))) # Returns the length of a string
+print("Data type for 3.14 is: " + str(type(3.14))) # Returns the data type of a value
+print("Data type for Hello is: " + str(type("Hello"))) # Returns the data type of a value
+print("Data type for True is: " +str(type(True))) # Returns the data type of a value
+
+#-----------------------------------------------------------------------------------------------------------------------------------------#
 
 
 #-----------------------------------------------------------------------------------------------------------------------------------------#
