@@ -31,21 +31,21 @@ print(sum)
 print(subtraction)
 print(multiplication)
 print(division)
-
-
-
-
 #-----------------------------------------------------------------------------------------------------------------------------------------#
 #Escape Characters
-
-
 print("Mohamed Said: \"I Like Football\"") # \' Single Quote
 print("ali\n love me") #\n	New Line
 print("Hello \t world") #\t	Tab
 print("Hello \b world") #\b	Backspace
 print("Hello \f world") #\f	Form Feed
 #-----------------------------------------------------------------------------------------------------------------------------------------#
+#Multi Line String
+print("""I want to be a AI engineer
+but I should to learn first a python Language 
+after i shold learn machine learning""")
 
+
+#-----------------------------------------------------------------------------------------------------------------------------------------#
 #Variables and User Input
 first_name = (input("Enter your First Name: "))
 last_name = (input("Enter your Last Name: "))
