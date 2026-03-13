@@ -58,6 +58,15 @@ print("Mohamed".lower()) # Converts a string to lowercase
 print("Mohamed".capitalize()) # Capitalizes the first letter of a string
 print("Mohamed".replace("o", "a")) # Replaces a specified value with another value in a string
 print("Mohamed".find("a")) # Searches for a specified value and returns the position of where it was found in a string
+#-----------------------------------------------------------------------------------------------------------------------------------------#
+#Indexing and Slicing
+name = "Eli Mercer" 
+first_name = name[0:3]
+last_name = name[4:]
+print(first_name) # Slices the string from index 0 to index 3 (not including index 3)
+print(last_name) # Slices the string from index 4 to the end
+#-----------------------------------------------------------------------------------------------------------------------------------------#
+#bulit-in functions (numbers)
 
 #-----------------------------------------------------------------------------------------------------------------------------------------#
 #Variables and User Input
