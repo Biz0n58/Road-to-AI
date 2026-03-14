@@ -122,6 +122,22 @@ for car in cars:
 
 #-----------------------------------------------------------------------------------------------------------------------------------------#
 #While Loop
+# while 1 < 5: #True
+#     print("Hello World") # Output: Hello World (infinite loop)
+   
+while 1 > 5: #False
+    print("Hello World") # Output: (nothing)
+#-----------------------------------------------------------------------------------------------------------------------------------------#
+#Conditional Statements
+age = int(input("Enter your age: "))
+if age >= 21:
+    print("You can buy smoke & alcohol") # Output: You can buy smoke
+elif age >= 18:
+    print("You can buy smoke only") # Output: You can buy smoke only
+else:
+    print("You are not allowed to buy smoke or alcohol") # Output: You are not allowed to buy smoke or alcohol
+
+
 
 #-----------------------------------------------------------------------------------------------------------------------------------------#
 
