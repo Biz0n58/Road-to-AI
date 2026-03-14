@@ -146,6 +146,31 @@ else:
 # <= Less than or equal to
 #-----------------------------------------------------------------------------------------------------------------------------------------#
 #Break and Continue
+nmb = input("Enter a number: ")
+number = int(nmb)
+x = 0
+while x < 10:
+    x += 1
+    if x == number:
+        continue
+    print(x) # Output: 1, 2, 3, 4, 5, 6, 7, 8, 9 (skips the number entered by the user)
+
+#-----------------------------------------------------------------------------------------------------------------------------------------#
+#not
+#and   
+#or
+score = int(input("Enter your score: "))
+absent = int(input("Are you absent?: "))
+if score >= 90 and absent == 0:
+    print("You are excellent") # Output: You are excellent
+elif score >= 90 or absent == 0:
+    print("You are excellent") # Output: You are excellent
+elif score >= 80 and absent == 5:
+    print("You are good") # Output: You are good
+elif score >= 60 and absent == 10:
+    print("You are average") # Output: You are average
+else:
+    print("You are fail") # Output: You are fail
 
 
 #-----------------------------------------------------------------------------------------------------------------------------------------#
