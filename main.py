@@ -42,7 +42,10 @@ print("Hello \f world") #\f	Form Feed
 #Multi Line String
 print("""I want to be a AI engineer
 but I should to learn first a python Language 
-after i shold learn machine learning""")
+after i should learn machine learning""")
+#-----------------------------------------------------------------------------------------------------------------------------------------#
+
+
 
 
 #-----------------------------------------------------------------------------------------------------------------------------------------#
