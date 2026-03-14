@@ -84,11 +84,28 @@
 # print(max(number, number2, number3)) # Returns the largest of three numbers
 # print(min(number, number2, number3)) # Returns the smallest of three numbers
 #-----------------------------------------------------------------------------------------------------------------------------------------#
+<<<<<<< HEAD
 #Incrimination
 # numbers = 2
 # print(numbers) # Output: 2
 # numbers += 3 # numbers = numbers + 3
 # print(numbers) # Output: 5
+=======
+#Escape Characters
+print("Mohamed Said: \"I Like Football\"") # \' Single Quote
+print("ali\n love me") #\n	New Line
+print("Hello \t world") #\t	Tab
+print("Hello \b world") #\b	Backspace
+print("Hello \f world") #\f	Form Feed
+#-----------------------------------------------------------------------------------------------------------------------------------------#
+#Multi Line String
+print("""I want to be a AI engineer
+but I should to learn first a python Language 
+after i should learn machine learning""")
+#-----------------------------------------------------------------------------------------------------------------------------------------#
+
+
+>>>>>>> 9439bad (WHAT?????????)
 
 
 #-----------------------------------------------------------------------------------------------------------------------------------------#
