@@ -58,7 +58,15 @@
 # print("Mohamed".capitalize()) # Capitalizes the first letter of a string
 # print("Mohamed".replace("o", "a")) # Replaces a specified value with another value in a string
 # print("Mohamed".find("a")) # Searches for a specified value and returns the position of where it was found in a string
-# #-----------------------------------------------------------------------------------------------------------------------------------------#
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+#                                                     NEW   #-----------------------------------------------------------------------------------------------------------------------------------------#
 # #Indexing and Slicing
 # name = "Eli Mercer" 
 # first_name = name[0:3]
@@ -67,30 +75,24 @@
 # print(last_name) # Slices the string from index 4 to the end
 #-----------------------------------------------------------------------------------------------------------------------------------------#
 #built-in functions (numbers)
-number = -58
-number2 = 86.14
-number3 = 65
-print((abs(number))) # Returns the absolute value of a number
-print((round(number2))) # Rounds a number to the nearest integer
-print(sum([number, number2, number3])) # Returns the sum of three numbers
-print(max(number, number2, number3)) # Returns the largest of three numbers
-print(min(number, number2, number3)) # Returns the smallest of three numbers
+# number = -58
+# number2 = 86.14
+# number3 = 65
+# print((abs(number))) # Returns the absolute value of a number
+# print((round(number2))) # Rounds a number to the nearest integer
+# print(sum([number, number2, number3])) # Returns the sum of three numbers
+# print(max(number, number2, number3)) # Returns the largest of three numbers
+# print(min(number, number2, number3)) # Returns the smallest of three numbers
 #-----------------------------------------------------------------------------------------------------------------------------------------#
 #Incrimination
-numbers = 2
-print(numbers) # Output: 2
-numbers += 3 # numbers = numbers + 3
-print(numbers) # Output: 5
+# numbers = 2
+# print(numbers) # Output: 2
+# numbers += 3 # numbers = numbers + 3
+# print(numbers) # Output: 5
 
 
 #-----------------------------------------------------------------------------------------------------------------------------------------#
 # For Loop
-
-name = "Eli Mercer"
-for letter in name: 
-    print(letter) # Output: M, e, r, c, e, r
-
-
 
 fruits = ["apple", "banana", "cherry" , "watermelon"]
 a = 0 
@@ -99,23 +101,30 @@ for fruit in fruits:
     print(fruit + " " + str(a)) # Output: apple, banana, cherry, watermelon   
 
     
-for x in range(5):
-    print("Hello:" + str(x)) # Output: 0, 1, 2, 3, 4
 
-for y in range(6,11,2): # Output: 6, 8, 10
-    print("World:" + str(y))    
 
-    
 u = 0 
 for letter in input("Enter your name: "):
     u += 1
     print(letter + " " + str(u)) # Takes user input and prints each letter on a new line
+    exit
 
 
 #-----------------------------------------------------------------------------------------------------------------------------------------#
-
+# Nested Loops
+cars = ["Toyota", "Honda", "Ford"]
+colors = ["Red", "Blue", "Green"]
+for car in cars: 
+    print("Car: " + car) # Output: Toyota, Honda, Ford
+    print("The Available Colors are: ") 
+    for color in colors: 
+        print( color) # Output: Red, Blue, Green
 
 #-----------------------------------------------------------------------------------------------------------------------------------------#
+#While Loop
+
+#-----------------------------------------------------------------------------------------------------------------------------------------#
+
 #Variables and User Input
 # first_name = (input("Enter your First Name: "))
 # last_name = (input("Enter your Last Name: "))
