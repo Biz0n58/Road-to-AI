@@ -136,7 +136,16 @@ elif age >= 18:
     print("You can buy smoke only") # Output: You can buy smoke only
 else:
     print("You are not allowed to buy smoke or alcohol") # Output: You are not allowed to buy smoke or alcohol
-
+#-----------------------------------------------------------------------------------------------------------------------------------------#
+#Comparison Operators
+# == Equal to
+# != Not equal to
+# > Greater than
+# < Less than
+# >= Greater than or equal to
+# <= Less than or equal to
+#-----------------------------------------------------------------------------------------------------------------------------------------#
+#Break and Continue
 
 
 #-----------------------------------------------------------------------------------------------------------------------------------------#
