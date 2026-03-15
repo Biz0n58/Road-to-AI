@@ -182,7 +182,23 @@ if number >= 0:
 else:
     print("negative number") # Output: negative number
 
+#-----------------------------------------------------------------------------------------------------------------------------------------#
+#Lists
+Students = ["Ali", "Sara", "mohamed", "Mercer", "Ali"]
+print(Students.index("Mercer") )# Returns the index of the first occurrence of "mohamed" in the list
+print(Students.pop(1)) # Removes and returns the element at index 1 (Sara)
+print(Students.count("Ali")) # Returns the number of times "mohamed" appears in the list
+print(Students.insert(2, "Ahmed")) # Adds "Ahmed" to the end of the list
+print(Students.remove("Mercer")) # Removes the first occurrence of "Mercer" from the list
+print(Students) # Output: ['Ali', 'Sara', 'mohamed', 'Ahmed']
+print(Students[2]) # Output: mohamed
 
+x = 0
+for Student in Students: 
+    x += 1
+    print(str(x) + "-" + Student) # Output: 1 Ali, 2 Sara, 3 mohamed, 4 Mercer
+#-----------------------------------------------------------------------------------------------------------------------------------------#
+#Nested Lists
 
 #-----------------------------------------------------------------------------------------------------------------------------------------#
 
