@@ -94,83 +94,94 @@
 #-----------------------------------------------------------------------------------------------------------------------------------------#
 # For Loop
 
-fruits = ["apple", "banana", "cherry" , "watermelon"]
-a = 0 
-for fruit in fruits:
-    a += 1
-    print(fruit + " " + str(a)) # Output: apple, banana, cherry, watermelon   
+# fruits = ["apple", "banana", "cherry" , "watermelon"]
+# a = 0 
+# for fruit in fruits:
+#     a += 1
+#     print(fruit + " " + str(a)) # Output: apple, banana, cherry, watermelon   
 
     
 
 
-u = 0 
-for letter in input("Enter your name: "):
-    u += 1
-    print(letter + " " + str(u)) # Takes user input and prints each letter on a new line
-    exit
+# u = 0 
+# for letter in input("Enter your name: "):
+#     u += 1
+#     print(letter + " " + str(u)) # Takes user input and prints each letter on a new line
+#     exit
 
 
 #-----------------------------------------------------------------------------------------------------------------------------------------#
 # Nested Loops
-cars = ["Toyota", "Honda", "Ford"]
-colors = ["Red", "Blue", "Green"]
-for car in cars: 
-    print("Car: " + car) # Output: Toyota, Honda, Ford
-    print("The Available Colors are: ") 
-    for color in colors: 
-        print( color) # Output: Red, Blue, Green
+# cars = ["Toyota", "Honda", "Ford"]
+# colors = ["Red", "Blue", "Green"]
+# for car in cars: 
+#     print("Car: " + car) # Output: Toyota, Honda, Ford
+#     print("The Available Colors are: ") 
+#     for color in colors: 
+#         print( color) # Output: Red, Blue, Green
 
 #-----------------------------------------------------------------------------------------------------------------------------------------#
 #While Loop
 # while 1 < 5: #True
 #     print("Hello World") # Output: Hello World (infinite loop)
    
-while 1 > 5: #False
-    print("Hello World") # Output: (nothing)
+# while 1 > 5: #False
+#     print("Hello World") # Output: (nothing)
 #-----------------------------------------------------------------------------------------------------------------------------------------#
 #Conditional Statements
-age = int(input("Enter your age: "))
-if age >= 21:
-    print("You can buy smoke & alcohol") # Output: You can buy smoke
-elif age >= 18:
-    print("You can buy smoke only") # Output: You can buy smoke only
-else:
-    print("You are not allowed to buy smoke or alcohol") # Output: You are not allowed to buy smoke or alcohol
-#-----------------------------------------------------------------------------------------------------------------------------------------#
-#Comparison Operators
-# == Equal to
-# != Not equal to
-# > Greater than
-# < Less than
-# >= Greater than or equal to
-# <= Less than or equal to
-#-----------------------------------------------------------------------------------------------------------------------------------------#
-#Break and Continue
-nmb = input("Enter a number: ")
-number = int(nmb)
-x = 0
-while x < 10:
-    x += 1
-    if x == number:
-        continue
-    print(x) # Output: 1, 2, 3, 4, 5, 6, 7, 8, 9 (skips the number entered by the user)
+# age = int(input("Enter your age: "))
+# if age >= 21:
+#     print("You can buy smoke & alcohol") # Output: You can buy smoke
+# elif age >= 18:
+#     print("You can buy smoke only") # Output: You can buy smoke only
+# else:
+#     print("You are not allowed to buy smoke or alcohol") # Output: You are not allowed to buy smoke or alcohol
+# #-----------------------------------------------------------------------------------------------------------------------------------------#
+# #Comparison Operators
+# # == Equal to
+# # != Not equal to
+# # > Greater than
+# # < Less than
+# # >= Greater than or equal to
+# # <= Less than or equal to
+# #-----------------------------------------------------------------------------------------------------------------------------------------#
+# #Break and Continue
+# nmb = input("Enter a number: ")
+# number = int(nmb)
+# x = 0
+# while x < 10:
+#     x += 1
+#     if x == number:
+#         continue
+#     print(x) # Output: 1, 2, 3, 4, 5, 6, 7, 8, 9 (skips the number entered by the user)
 
+# #-----------------------------------------------------------------------------------------------------------------------------------------#
+# #not
+# #and   
+# #or
+# score = int(input("Enter your score: "))
+# absent = int(input("Are you absent?: "))
+# if score >= 90 and absent == 0:
+#     print("You are excellent") # Output: You are excellent
+# elif score >= 90 or absent == 0:
+#     print("You are excellent") # Output: You are excellent
+# elif score >= 80 and absent == 5:
+#     print("You are good") # Output: You are good
+# elif score >= 60 and absent == 10:
+#     print("You are average") # Output: You are average
+# else:
+#     print("You are fail") # Output: You are fail
 #-----------------------------------------------------------------------------------------------------------------------------------------#
-#not
-#and   
-#or
-score = int(input("Enter your score: "))
-absent = int(input("Are you absent?: "))
-if score >= 90 and absent == 0:
-    print("You are excellent") # Output: You are excellent
-elif score >= 90 or absent == 0:
-    print("You are excellent") # Output: You are excellent
-elif score >= 80 and absent == 5:
-    print("You are good") # Output: You are good
-elif score >= 60 and absent == 10:
-    print("You are average") # Output: You are average
+#nested if statements
+number  =  int(input("Enter a number: "))
+if number >= 0:
+    if number == 0:
+        print("zero") # Output: zero
+    else:
+        print("positive number") # Output: positive number
 else:
-    print("You are fail") # Output: You are fail
+    print("negative number") # Output: negative number
+
 
 
 #-----------------------------------------------------------------------------------------------------------------------------------------#
